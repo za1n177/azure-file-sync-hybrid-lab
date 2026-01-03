@@ -24,3 +24,10 @@ Azure Files requires SMB over TCP 445.
 ```powershell
 Test-NetConnection login.microsoftonline.com -Port 443
 Test-NetConnection <storageaccount>.file.core.windows.net -Port 445
+
+---
+
+## Exam Tip (AZ-104)
+
+Azure Files requires TCP 445.
+If blocked, Azure File Sync will not function.
