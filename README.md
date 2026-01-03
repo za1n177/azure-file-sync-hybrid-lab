@@ -46,29 +46,28 @@ SMB (TCP 445)
 
 Azure Files requires outbound TCP 445 connectivity.
 
-📸 Screenshot:
-screenshots/01-connectivity-443.png
+![Verify Azure Files connectivity (TCP 445)](screenshots/01-connectivity-445.png)
+
 
 2️⃣ Create Azure File Share
 
 A file share named data was created in the storage account.
 
-📸 Screenshot:
-screenshots/02-file-share-data.png
+![Azure File Share created](screenshots/02-file-share-data.png)
 
 3️⃣ Deploy Storage Sync Service
 
 A Storage Sync Service (Sync1) was created to manage sync groups and endpoints.
 
-📸 Screenshot:
-screenshots/03-storage-sync-service-sync1.png
+![Storage Sync Service Sync1](screenshots/03-storage-sync-service-sync1.png)
+
 
 4️⃣ Create Sync Group
 
 A sync group named sync-files-prod was created with the Azure file share as the cloud endpoint.
 
-📸 Screenshot:
-screenshots/04-sync-group-sync-files-prod.png
+![Sync group sync-files-prod](screenshots/04-sync-group-sync-files-prod.png)
+
 
 5️⃣ Configure Server Endpoint
 
@@ -82,15 +81,15 @@ Health: Healthy
 
 Sync direction: Bi-directional
 
-📸 Screenshot:
-screenshots/05-sync-group-cloud-and-server-endpoints.png
+![Cloud and Server Endpoints](screenshots/05-sync-group-cloud-and-server-endpoints.png)
+
 
 6️⃣ Validate File Synchronization
 
 A test file created on the server (server-test.txt) successfully synchronized to Azure Files.
 
-📸 Screenshot:
-screenshots/06-file-synced-to-azure-file-share.png
+![File synced to Azure File Share](screenshots/06-file-synced-to-azure-file-share.png)
+
 
 🧪 Validation Summary
 Component	Status
