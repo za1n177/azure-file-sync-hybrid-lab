@@ -1,0 +1,22 @@
+# Azure File Sync – Troubleshooting Guide
+
+This folder documents common Azure File Sync issues encountered during hybrid file server deployments, along with root causes and remediation steps.
+
+All scenarios are aligned with:
+- AZ-104 exam objectives
+- Real-world enterprise troubleshooting
+
+## Covered Scenarios
+
+1. Port 445 blocked (Azure Files unreachable)
+2. Server endpoint unhealthy
+3. Files not syncing
+4. NTFS / share permission issues
+5. Azure File Sync agent service issues
+6. File sync conflicts
+
+Each issue includes:
+- Symptoms
+- Root cause
+- Resolution steps
+- Validation checks
